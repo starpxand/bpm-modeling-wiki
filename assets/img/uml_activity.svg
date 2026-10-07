@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 960" width="1000" height="960" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="UML – диаграмма деятельности «Обработка заказа» с разделами" class="lh-svg">
+<title>UML – диаграмма деятельности «Обработка заказа» с разделами</title>
+<defs><marker id="umla-a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0b1b3f"/></marker><style>.e{stroke-linecap:round}@media (prefers-reduced-motion:reduce){.pkt{display:none}}</style></defs>
+<rect width="1000" height="960" fill="#ffffff"/>
+<rect class="n" x="10" y="10" width="320" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<rect class="n" x="10" y="10" width="320" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="170.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="170.0" dy="0.0">Клиент</tspan></text>
+<rect class="n" x="330" y="10" width="330" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<rect class="n" x="330" y="10" width="330" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="495.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="495.0" dy="0.0">Менеджер</tspan></text>
+<rect class="n" x="660" y="10" width="330" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<rect class="n" x="660" y="10" width="330" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="825.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="825.0" dy="0.0">Склад</tspan></text>
+<circle class="n" cx="170" cy="82" r="11" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1"/>
+<rect class="n" x="80.0" y="122.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="170" y="145" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="170" dy="0.0">Оформить заказ</tspan></text>
+<path class="e" d="M170,93 L170,122" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="110" y="195" width="120" height="36" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="170" y="213" font-size="13.5" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="170" dy="0.0">Заказ</tspan></text>
+<path class="e" d="M170,168 L170,195" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<polygon class="n" points="495,227 513,245 495,263 477,245" fill="#ffffff" stroke="#0b1b3f" stroke-width="2"/>
+<path class="e" d="M230,213 L495,213 L495,227" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="405.0" y="292.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="495" y="315" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="495" dy="0.0">Проверить наличие</tspan></text>
+<path class="e" d="M495,263 L495,292" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<polygon class="n" points="495,367 513,385 495,403 477,385" fill="#ffffff" stroke="#0b1b3f" stroke-width="2"/>
+<path class="e" d="M495,338 L495,367" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="80.0" y="362.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="170" y="385" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="170" dy="0.0">Согласовать замену</tspan></text>
+<path class="e" d="M477,385 L260,385" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="lbg" x="324.0" y="361.2" width="92.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="370" y="371" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="370" dy="0.0">[товара нет]</tspan></text>
+<path class="e" d="M170,362 L170,245 L477,245" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="405.0" y="447.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="495" y="470" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="495" dy="0.0">Выставить счёт</tspan></text>
+<path class="e" d="M495,403 L495,447" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="lbg" x="514.0" y="415.2" width="92.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="560" y="425" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="560" dy="0.0">[товар есть]</tspan></text>
+<rect class="n" x="80.0" y="447.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="170" y="470" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="170" dy="0.0">Оплатить счёт</tspan></text>
+<path class="e" d="M405,470 L260,470" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<polygon class="n" points="495,542 513,560 495,578 477,560" fill="#ffffff" stroke="#0b1b3f" stroke-width="2"/>
+<path class="e" d="M170,493 L170,560 L477,560" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<circle class="n" cx="615" cy="560" r="14" fill="#ffffff" stroke="#0b1b3f" stroke-width="2"/>
+<circle class="n" cx="615" cy="560" r="8" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1"/>
+<path class="e" d="M513,560 L601,560" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="lbg" x="516.0" y="515.0" width="81.9" height="34.0" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="557" y="532" font-size="12" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="557" dy="-7.5">[нет оплаты</tspan><tspan x="557" dy="15.0">за 3 дня]</tspan></text>
+<text class="t" x="615" y="600" font-size="12" font-weight="400" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="615" dy="-7.5">заказ</tspan><tspan x="615" dy="15.0">отменён</tspan></text>
+<rect class="n" x="720" y="636" width="210" height="8" rx="0" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1" />
+<path class="e" d="M495,578 L495,615 L825,615 L825,636" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="lbg" x="357.0" y="588.2" width="134.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="487" y="598" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="end" font-style="italic" dominant-baseline="middle"><tspan x="487" dy="0.0">[оплата поступила]</tspan></text>
+<rect class="n" x="675.0" y="692.0" width="140" height="56" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="745" y="720" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="745" dy="-8.4">Собрать</tspan><tspan x="745" dy="16.9">товар</tspan></text>
+<rect class="n" x="835.0" y="692.0" width="140" height="56" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="905" y="720" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="905" dy="-8.4">Подготовить</tspan><tspan x="905" dy="16.9">документы</tspan></text>
+<path class="e" d="M745,644 L745,692" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<path class="e" d="M905,644 L905,692" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="720" y="796" width="210" height="8" rx="0" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1" />
+<path class="e" d="M745,748 L745,796" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<path class="e" d="M905,748 L905,796" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<rect class="n" x="715.0" y="842.0" width="220" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="825" y="865" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="825" dy="0.0">Передать в доставку</tspan></text>
+<path class="e" d="M825,804 L825,842" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+<circle class="n" cx="825" cy="925" r="14" fill="#ffffff" stroke="#0b1b3f" stroke-width="2"/>
+<circle class="n" cx="825" cy="925" r="8" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1"/>
+<path class="e" d="M825,888 L825,911" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
+</svg>

@@ -1,0 +1,178 @@
+/* Динамика мини-wiki: диаграммы, появление при прокрутке, hero, матрица, подбор нотации */
+
+/* ---------- Появление при прокрутке ---------- */
+.lh-reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease var(--d, 0ms), transform .6s cubic-bezier(.2,.7,.2,1) var(--d, 0ms); }
+.lh-reveal.lh-in { opacity: 1; transform: none; }
+.md-typeset h2.lh-reveal::before { transform: scaleY(0); transform-origin: bottom; transition: transform .5s ease .25s; }
+.md-typeset h2.lh-in::before { transform: scaleY(1); }
+
+/* ---------- Полоса прогресса ---------- */
+.lh-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 10; transform-origin: 0 50%; transform: scaleX(0);
+  background: linear-gradient(90deg, var(--lh-blue), var(--lh-amber), var(--lh-orange)); pointer-events: none;
+}
+
+/* ---------- Диаграммы ---------- */
+.md-typeset .lh-fig {
+  display: block; width: 100%; margin: 1.4em 0; border: 1px solid var(--lh-border); border-radius: 14px; background: var(--lh-surface);
+  box-shadow: var(--lh-shadow); overflow: hidden;
+}
+.lh-fig__bar {
+  display: flex; align-items: center; gap: .4rem; padding: .45rem .7rem; border-bottom: 1px solid var(--lh-border);
+  background: linear-gradient(90deg, rgba(47,91,234,.06), rgba(255,138,61,.06));
+}
+.lh-fig__cap { flex: 1; font-size: .64rem; font-weight: 700; letter-spacing: .02em; color: var(--md-default-fg-color--light); }
+.lh-fig__btn {
+  font: inherit; font-size: .6rem; font-weight: 600; cursor: pointer; padding: .28em .8em; border-radius: 99px;
+  border: 1px solid var(--lh-border); background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+  transition: border-color .15s, color .15s, transform .15s;
+}
+.lh-fig__btn:hover { border-color: var(--lh-orange); color: var(--lh-orange); transform: translateY(-1px); }
+.lh-fig__body { padding: 1rem; text-align: center; overflow-x: auto; cursor: zoom-in; }
+.lh-fig__body svg { max-width: 100%; height: auto; }
+.lh-fig__body > svg.lh-svg { border-radius: 10px; background: #fff; }
+.lh-fig__err { color: #b91c1c; font-size: .7rem; }
+/* подсветка элементов диаграмм при наведении */
+.lh-fig__body svg g.node, .lh-fig__body svg .n { transition: filter .2s; }
+.lh-fig__body svg g.node:hover, .lh-fig__body svg rect.n:hover, .lh-fig__body svg polygon.n:hover {
+  filter: drop-shadow(0 0 6px rgba(255, 138, 61, .75));
+}
+.lh-fig__body svg path.flowchart-link:hover { stroke: var(--lh-orange) !important; stroke-width: 3px !important; }
+
+/* ---------- Полноэкранный просмотр ---------- */
+html.lh-noscroll { overflow: hidden; }
+.lh-lightbox {
+  position: fixed; inset: 0; z-index: 1000; background: rgba(7, 18, 43, .82); backdrop-filter: blur(4px);
+  display: flex; flex-direction: column; animation: lh-fade .2s ease;
+}
+.lh-lightbox__bar { display: flex; gap: .5rem; align-items: center; padding: .7rem 1rem; color: #fff; }
+.lh-lightbox__bar b { flex: 1; font-size: .8rem; }
+.lh-lightbox__bar button {
+  font: inherit; font-size: .7rem; cursor: pointer; color: #fff; background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.25); border-radius: 8px; padding: .35em .9em;
+}
+.lh-lightbox__bar button:hover { background: rgba(255,138,61,.35); }
+.lh-lightbox__stage { flex: 1; margin: 0 1rem; position: relative; overflow: hidden; cursor: grab; border-radius: 14px; background: #fff; touch-action: none; }
+.lh-lightbox__stage:active { cursor: grabbing; }
+.lh-lightbox__wrap { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.lh-lightbox__hint { text-align: center; color: rgba(255,255,255,.7); font-size: .62rem; padding: .5rem; }
+@keyframes lh-fade { from { opacity: 0; } }
+
+/* ---------- BPMN (bpmn-js) ---------- */
+.lh-bpmn__canvas { height: 420px; background: #fff; }
+.lh-bpmn__step { min-height: 1.6rem; padding: .35rem .9rem; font-size: .68rem; font-weight: 600; color: var(--lh-orange); }
+.lh-bpmn--full { position: fixed !important; inset: 12px; z-index: 1000; margin: 0 !important; display: flex; flex-direction: column; }
+.lh-bpmn--full .lh-bpmn__canvas { flex: 1; height: auto; }
+.lh-hl:not(.djs-connection) .djs-visual > :first-child { stroke: #ff8a3d !important; stroke-width: 4px !important; fill: #fff4ea !important; }
+.lh-hl.djs-connection .djs-visual > path { stroke: #ff8a3d !important; stroke-width: 3.5px !important; }
+.lh-bpmn .bjs-powered-by { opacity: .5; }
+
+/* ---------- Главная: анимированный hero ---------- */
+.lh-hero { background-size: 160% 160%; animation: lh-sky 18s ease-in-out infinite alternate; }
+@keyframes lh-sky { from { background-position: 0% 0%; } to { background-position: 100% 100%; } }
+.lh-hero__glyphs { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.lh-hero__glyphs i {
+  position: absolute; display: block; border: 2px solid rgba(255,255,255,.28); opacity: .55;
+  animation: lh-float 14s ease-in-out infinite;
+}
+.lh-hero__glyphs .g-rect { width: 46px; height: 28px; border-radius: 4px; }
+.lh-hero__glyphs .g-round { width: 46px; height: 28px; border-radius: 12px; border-color: rgba(255,181,71,.5); }
+.lh-hero__glyphs .g-diam { width: 26px; height: 26px; transform: rotate(45deg); border-color: rgba(255,138,61,.6); }
+.lh-hero__glyphs .g-circ { width: 26px; height: 26px; border-radius: 50%; }
+.lh-hero__glyphs .g-circ.thick { border-width: 4px; border-color: rgba(122,162,255,.6); }
+.lh-hero__glyphs .g-store { width: 54px; height: 22px; border-right: 0; }
+@keyframes lh-float {
+  0%, 100% { translate: 0 0; }
+  33% { translate: 18px -22px; }
+  66% { translate: -14px 16px; }
+}
+.lh-hero h1 span.lh-rotator { display: inline-block; transition: opacity .28s, transform .28s; }
+.lh-hero h1 span.lh-rotator.lh-out { opacity: 0; transform: translateY(-10px); }
+.lh-hero .md-button--primary { position: relative; overflow: hidden; }
+.lh-hero .md-button--primary::after {
+  content: ""; position: absolute; inset: 0; transform: translateX(-120%);
+  background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.55) 50%, transparent 70%);
+  animation: lh-shine 3.2s ease-in-out infinite;
+}
+@keyframes lh-shine { 60%, 100% { transform: translateX(120%); } }
+.lh-kpi { transition: transform .2s, border-color .2s; }
+.lh-kpi:hover { transform: translateY(-3px); border-color: rgba(255,181,71,.6); }
+.lh-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .55rem; }
+.lh-chips a {
+  font-size: .6rem; font-weight: 600; padding: .25em .7em; border-radius: 99px; color: #fff !important;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2); transition: background .2s, transform .2s;
+}
+.lh-chips a:hover { background: rgba(255,138,61,.4); transform: translateY(-2px); }
+
+/* карточки: блик под курсором */
+.md-typeset .grid.cards > ul > li { position: relative; overflow: hidden; transition: transform .25s ease, box-shadow .25s ease, border-color .25s; }
+.md-typeset .grid.cards > ul > li::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .3s;
+  background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 50%), rgba(255,138,61,.14), transparent 70%);
+}
+.md-typeset .grid.cards > ul > li:hover::after { opacity: 1; }
+
+/* ---------- Матрица сравнения ---------- */
+.md-typeset table[data-matrix] td[data-v] { text-align: center; font-size: 0; }
+.md-typeset table[data-matrix] td[data-v]::before {
+  content: ""; display: inline-block; width: 14px; height: 14px; border-radius: 50%; vertical-align: middle;
+  transition: transform .25s;
+}
+.md-typeset table[data-matrix] td[data-v="full"]::before { background: var(--lh-orange); box-shadow: 0 0 0 3px rgba(255,138,61,.18); }
+.md-typeset table[data-matrix] td[data-v="half"]::before { background: linear-gradient(90deg, var(--lh-orange) 50%, transparent 50%); border: 2px solid var(--lh-orange); width: 10px; height: 10px; }
+.md-typeset table[data-matrix] td[data-v="none"]::before { width: 10px; height: 2px; border-radius: 1px; background: var(--md-default-fg-color--lightest); }
+.md-typeset table[data-matrix] .lh-col { background: rgba(255,138,61,.08); }
+.md-typeset table[data-matrix] tr:hover td[data-v]::before, .md-typeset table[data-matrix] .lh-col[data-v]::before { transform: scale(1.35); }
+.md-typeset .lh-in table[data-matrix] td[data-v]::before { animation: lh-pop .45s cubic-bezier(.3,1.6,.5,1) backwards; }
+@keyframes lh-pop { from { transform: scale(0); } }
+
+/* ---------- Подбор нотации ---------- */
+.md-typeset .lh-pick { border: 1px solid var(--lh-border); border-radius: 14px; padding: 1rem; background: var(--lh-surface); box-shadow: var(--lh-shadow); }
+.lh-pick__q { display: flex; flex-wrap: wrap; gap: .45rem; }
+.lh-pick__q button {
+  font: inherit; font-size: .66rem; font-weight: 600; cursor: pointer; padding: .5em 1em; border-radius: 10px;
+  border: 1px solid var(--lh-border); background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+  transition: all .2s;
+}
+.lh-pick__q button:hover { border-color: var(--lh-orange); transform: translateY(-2px); }
+.lh-pick__q button.lh-on { background: linear-gradient(90deg, var(--lh-amber), var(--lh-orange)); color: #1b1300; border-color: transparent; }
+.lh-pick__out { margin-top: .9rem; min-height: 3.4rem; opacity: 0; transform: translateY(8px); transition: opacity .35s, transform .35s; }
+.lh-pick__out.lh-show { opacity: 1; transform: none; }
+.lh-pick__out .lh-ans { display: flex; gap: .9rem; align-items: flex-start; }
+.lh-pick__out .lh-ans b.lh-ans__n {
+  flex: none; font-size: 1.05rem; padding: .4em .8em; border-radius: 10px; color: #fff;
+  background: linear-gradient(135deg, #0b1b3f, #2f5bea);
+}
+.lh-pick__out p { margin: 0 0 .3em; font-size: .72rem; }
+.lh-pick__hint { font-size: .66rem; color: var(--md-default-fg-color--light); margin-top: .6rem; }
+
+/* ---------- Сводка на страницах нотаций ---------- */
+.md-typeset .lh-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .6rem; margin: 1em 0 1.4em; }
+.md-typeset .lh-stat { border: 1px solid var(--lh-border); border-radius: 12px; padding: .6rem .8rem; background: var(--lh-surface); }
+.md-typeset .lh-stat span { display: block; font-size: .58rem; text-transform: uppercase; letter-spacing: .06em; color: var(--md-default-fg-color--light); }
+.md-typeset .lh-stat b { font-size: .78rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lh-reveal { opacity: 1; transform: none; transition: none; }
+  .lh-hero, .lh-hero__glyphs i, .lh-hero .md-button--primary::after { animation: none; }
+}
+
+/* ---------- Список источников ---------- */
+.md-typeset .lh-sources p { text-indent: 1.25em; text-align: justify; margin: 0 0 .55em; font-size: .74rem; }
+.md-typeset .lh-sources p:target { background: rgba(255, 138, 61, .14); border-radius: 6px; animation: lh-flash 1.6s ease; }
+@keyframes lh-flash { 0% { background: rgba(255, 138, 61, .45); } }
+
+/* bpmn-js: тема Material задаёт svg height:auto – холсту нужна полная высота */
+.md-typeset .lh-bpmn__canvas .djs-container svg { height: 100% !important; width: 100% !important; max-width: none !important; }
+.md-typeset .lh-bpmn__canvas .djs-container text { font-family: Arial, sans-serif; }
+.md-typeset table[data-matrix] td { vertical-align: middle; }
+
+/* мобильная вёрстка hero: колонки не шире экрана */
+.lh-hero__grid > * { min-width: 0; }
+.lh-badge { white-space: normal; max-width: 100%; }
+@media screen and (max-width: 44.9375em) {
+  .lh-hero h1 { font-size: 1.45rem; }
+  .lh-kpi-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .lh-kpi__label { font-size: .5rem; }
+  .lh-fig__btn[data-act="play"] { display: none; }
+}

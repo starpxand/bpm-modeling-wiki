@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 380" width="1300" height="380" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="IDEF3 – сценарий «от оплаты до закрытия заказа»" class="lh-svg">
+<title>IDEF3 – сценарий «от оплаты до закрытия заказа»</title>
+<defs><marker id="idef3-a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0b1b3f"/></marker><style>.e{stroke-linecap:round}@media (prefers-reduced-motion:reduce){.pkt{display:none}}</style></defs>
+<rect width="1300" height="380" fill="#ffffff"/>
+<rect class="n" x="20" y="154.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="20" y1="204.0" x2="170" y2="204.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="54" y1="204.0" x2="54" y2="226.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="95.0" y="179.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="95.0" dy="-8.8">Получить</tspan><tspan x="95.0" dy="17.5">оплату</tspan></text>
+<text class="t" x="37" y="215.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="37" dy="0.0">1</tspan></text>
+<rect class="n" x="200" y="90.0" width="30" height="200" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2.2" />
+<text class="t" x="215" y="190" font-size="19" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="215" dy="0.0">&amp;</tspan></text>
+<text class="t" x="215" y="304.0" font-size="12" font-weight="700" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="215" dy="0.0">J1</tspan></text>
+<rect class="n" x="255" y="79.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="255" y1="129.0" x2="405" y2="129.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="289" y1="129.0" x2="289" y2="151.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="330.0" y="104.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="330.0" dy="-8.8">Скомплектовать</tspan><tspan x="330.0" dy="17.5">товар</tspan></text>
+<text class="t" x="272" y="140.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="272" dy="0.0">2</tspan></text>
+<rect class="n" x="255" y="229.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="255" y1="279.0" x2="405" y2="279.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="289" y1="279.0" x2="289" y2="301.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="330.0" y="254.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="330.0" dy="-8.8">Подготовить</tspan><tspan x="330.0" dy="17.5">документы</tspan></text>
+<text class="t" x="272" y="290.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="272" dy="0.0">3</tspan></text>
+<rect class="n" x="435" y="90.0" width="30" height="200" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2.2" />
+<text class="t" x="450" y="190" font-size="19" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="450" dy="0.0">&amp;</tspan></text>
+<text class="t" x="450" y="304.0" font-size="12" font-weight="700" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="450" dy="0.0">J2</tspan></text>
+<rect class="n" x="490" y="154.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="490" y1="204.0" x2="640" y2="204.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="524" y1="204.0" x2="524" y2="226.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="565.0" y="179.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="565.0" dy="-8.8">Доставить</tspan><tspan x="565.0" dy="17.5">заказ</tspan></text>
+<text class="t" x="507" y="215.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="507" dy="0.0">4</tspan></text>
+<rect class="n" x="670" y="90.0" width="30" height="200" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2.2" />
+<text class="t" x="685" y="190" font-size="19" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0.0">X</tspan></text>
+<text class="t" x="685" y="304.0" font-size="12" font-weight="700" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0.0">J3</tspan></text>
+<rect class="n" x="725" y="79.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="725" y1="129.0" x2="875" y2="129.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="759" y1="129.0" x2="759" y2="151.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="800.0" y="104.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="800.0" dy="-8.8">Подтвердить</tspan><tspan x="800.0" dy="17.5">получение</tspan></text>
+<text class="t" x="742" y="140.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="742" dy="0.0">5</tspan></text>
+<rect class="n" x="725" y="229.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="725" y1="279.0" x2="875" y2="279.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="759" y1="279.0" x2="759" y2="301.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="800.0" y="254.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="800.0" dy="-8.8">Оформить</tspan><tspan x="800.0" dy="17.5">возврат</tspan></text>
+<text class="t" x="742" y="290.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="742" dy="0.0">6</tspan></text>
+<rect class="n" x="905" y="90.0" width="30" height="200" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2.2" />
+<text class="t" x="920" y="190" font-size="19" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="920" dy="0.0">X</tspan></text>
+<text class="t" x="920" y="304.0" font-size="12" font-weight="700" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="920" dy="0.0">J4</tspan></text>
+<rect class="n" x="960" y="154.0" width="150" height="72" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="960" y1="204.0" x2="1110" y2="204.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="994" y1="204.0" x2="994" y2="226.0" stroke="#0b1b3f" stroke-width="1.4"/>
+<text class="t" x="1035.0" y="179.0" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="1035.0" dy="-8.8">Закрыть</tspan><tspan x="1035.0" dy="17.5">заказ</tspan></text>
+<text class="t" x="977" y="215.0" font-size="12" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="977" dy="0.0">7</tspan></text>
+<path class="e" d="M170,190 L200,190" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M230,115 L255,115" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M230,265 L255,265" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M705,115 L725,115" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M705,265 L725,265" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M405,115 L435,115" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M405,265 L435,265" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M875,115 L905,115" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M875,265 L905,265" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M465,190 L490,190" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M640,190 L670,190" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<path class="e" d="M935,190 L960,190" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef3-a0)"/>
+<rect class="lbg" x="750.5" y="55.2" width="99.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="800" y="65" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="800" dy="0.0">нет претензий</tspan></text>
+<rect class="lbg" x="747.0" y="307.2" width="106.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="800" y="317" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="800" dy="0.0">есть претензии</tspan></text>
+<rect class="n" x="1140" y="60" width="145" height="260" rx="10" fill="#f6f8fc" stroke="#d5dceb" stroke-width="1" />
+<text class="t" x="1152" y="82" font-size="13" font-weight="800" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="1152" dy="0.0">Обозначения</tspan></text>
+<rect class="n" x="1152" y="97" width="22" height="36" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="1163" y="115" font-size="14" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="1163" dy="0.0">&amp;</tspan></text>
+<text class="t" x="1182" y="115" font-size="11.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="1182" dy="0.0">И – все ветви</tspan></text>
+<rect class="n" x="1152" y="159" width="22" height="36" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="1163" y="177" font-size="14" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="1163" dy="0.0">X</tspan></text>
+<text class="t" x="1182" y="177" font-size="11.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="1182" dy="0.0">исключающее</tspan><tspan x="1182" dy="14.4">ИЛИ – одна</tspan></text>
+<rect class="n" x="1152" y="221" width="22" height="36" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
+<text class="t" x="1163" y="239" font-size="14" font-weight="800" fill="#ff8a3d" text-anchor="middle" dominant-baseline="middle"><tspan x="1163" dy="0.0">O</tspan></text>
+<text class="t" x="1182" y="239" font-size="11.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="1182" dy="0.0">ИЛИ – одна</tspan><tspan x="1182" dy="14.4">или несколько</tspan></text>
+<text class="t" x="1152" y="300" font-size="11.5" font-weight="400" fill="#5b6477" text-anchor="start" dominant-baseline="middle"><tspan x="1152" dy="0.0">1 … 7 – номера UOB</tspan></text>
+</svg>
