@@ -1,0 +1,84 @@
+site_name: Нотации моделирования бизнес-процессов
+site_description: Мини-wiki по методам моделирования бизнес-процессов – Flow Chart, DFD, RAD, IDEF, ERD, UML, BPMN
+site_author: Попов Андрей, Красношлыков Пётр, Казанцева Ярослава
+site_url: https://starpxand.github.io/bpm-modeling-wiki/
+repo_url: https://github.com/starpxand/bpm-modeling-wiki
+repo_name: starpxand/bpm-modeling-wiki
+copyright: "&copy; 2026 Проектное задание «Моделирование бизнес-процессов» · Попов Андрей, Красношлыков Пётр, Казанцева Ярослава"
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+
+nav:
+  - Главная: index.md
+  - Нотации:
+      - Flow Chart: notations/flowchart.md
+      - DFD: notations/dfd.md
+      - RAD: notations/rad.md
+      - IDEF: notations/idef.md
+      - ERD: notations/erd.md
+      - UML: notations/uml.md
+      - BPMN: notations/bpmn.md
+  - Сравнение и выбор: comparison.md
+  - Источники: sources.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: lh-mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css?v=2
+  - assets/fx.css?v=2
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.min.js
+  - assets/fx.js?v=2

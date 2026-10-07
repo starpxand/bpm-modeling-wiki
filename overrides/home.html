@@ -1,0 +1,49 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <section class="lh-hero">
+    <div class="lh-hero__glyphs" aria-hidden="true">
+      <i class="g-rect" style="left:6%;top:18%;animation-delay:-2s"></i>
+      <i class="g-diam" style="left:16%;top:72%;animation-delay:-5s"></i>
+      <i class="g-circ" style="left:39%;top:12%;animation-delay:-8s"></i>
+      <i class="g-round" style="left:47%;top:80%;animation-delay:-1s"></i>
+      <i class="g-circ thick" style="left:58%;top:30%;animation-delay:-11s"></i>
+      <i class="g-store" style="left:72%;top:86%;animation-delay:-4s"></i>
+      <i class="g-diam" style="left:88%;top:16%;animation-delay:-7s"></i>
+      <i class="g-rect" style="left:93%;top:60%;animation-delay:-9s"></i>
+    </div>
+    <div class="lh-hero__grid md-grid">
+      <div class="lh-hero__text">
+        <span class="lh-badge">Проектное задание · Моделирование бизнес-процессов</span>
+        <h1>Семь нотаций –<br><span class="lh-rotator" data-words="один общий процесс|порядок шагов|потоки данных|роли и действия|функции и ресурсы|структура данных|события и шлюзы">один общий процесс</span></h1>
+        <p>
+          Мини-wiki по методам моделирования бизнес-процессов: краткое описание, элементы нотации,
+          правила составления, пример и источники. Все примеры построены на одном общем процессе –
+          обработке заказа в интернет-магазине, – чтобы наглядно сравнить, что показывает каждая нотация.
+        </p>
+        <div class="lh-hero__actions">
+          <a href="{{ 'notations/flowchart/' | url }}" class="md-button md-button--primary">Начать с Flow Chart</a>
+          <a href="{{ 'comparison/' | url }}" class="md-button lh-button--ghost">Подобрать нотацию</a>
+        </div>
+      </div>
+      <div class="lh-hero__panel">
+        <div class="lh-kpi lh-kpi--main">
+          <div class="lh-kpi__label">Нотаций в wiki</div>
+          <div class="lh-kpi__value" data-count="7">7</div>
+          <div class="lh-chips">
+            <a href="{{ 'notations/flowchart/' | url }}">Flow Chart</a><a href="{{ 'notations/dfd/' | url }}">DFD</a>
+            <a href="{{ 'notations/rad/' | url }}">RAD</a><a href="{{ 'notations/idef/' | url }}">IDEF</a>
+            <a href="{{ 'notations/erd/' | url }}">ERD</a><a href="{{ 'notations/uml/' | url }}">UML</a>
+            <a href="{{ 'notations/bpmn/' | url }}">BPMN</a>
+          </div>
+        </div>
+        <div class="lh-kpi-row">
+          <div class="lh-kpi"><div class="lh-kpi__label">Диаграмм</div><div class="lh-kpi__value" data-count="14">14</div></div>
+          <div class="lh-kpi"><div class="lh-kpi__label">Разделов на нотацию</div><div class="lh-kpi__value" data-count="5">5</div></div>
+          <div class="lh-kpi"><div class="lh-kpi__label">Источников</div><div class="lh-kpi__value" data-count="21">21</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 340" width="1120" height="340" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="DFD – контекстная диаграмма процесса обработки заказа в интернет-магазине" class="lh-svg">
+<title>DFD – контекстная диаграмма процесса обработки заказа в интернет-магазине</title>
+<defs><marker id="dfd0-a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0b1b3f"/></marker><style>.e{stroke-linecap:round}@media (prefers-reduced-motion:reduce){.pkt{display:none}}</style></defs>
+<rect width="1120" height="340" fill="#ffffff"/>
+<rect class="n" x="46" y="66" width="190" height="210" rx="0" fill="#c9d3ea" stroke="none" stroke-width="0" />
+<rect class="n" x="40" y="60" width="190" height="210" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="135.0" y="165.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="135.0" dy="0.0">Клиент</tspan></text>
+<rect class="n" x="455" y="50" width="230" height="230" rx="12" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
+<line class="n" x1="455" y1="78" x2="685" y2="78" stroke="#0b1b3f" stroke-width="1.6"/>
+<text class="t" x="570.0" y="65" font-size="13" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="0.0">0</tspan></text>
+<text class="t" x="570.0" y="179.0" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="-8.8">Обработка заказа</tspan><tspan x="570.0" dy="17.5">интернет-магазина</tspan></text>
+<rect class="n" x="906" y="111" width="180" height="120" rx="0" fill="#c9d3ea" stroke="none" stroke-width="0" />
+<rect class="n" x="900" y="105" width="180" height="120" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2" />
+<text class="t" x="990.0" y="165.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="990.0" dy="-9.4">Служба</tspan><tspan x="990.0" dy="18.8">доставки</tspan></text>
+<path class="e flow" d="M230,85 L455,85" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.37s" repeatCount="indefinite" path="M230,85 L455,85"/></circle>
+<rect class="lbg" x="320.5" y="62.2" width="43.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="342" y="72" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="342" dy="0.0">Заказ</tspan></text>
+<path class="e flow" d="M230,125 L455,125" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.74s" repeatCount="indefinite" path="M230,125 L455,125"/></circle>
+<rect class="lbg" x="317.0" y="102.2" width="50.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="342" y="112" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="342" dy="0.0">Оплата</tspan></text>
+<path class="e flow" d="M230,165 L455,165" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.11s" repeatCount="indefinite" path="M230,165 L455,165"/></circle>
+<rect class="lbg" x="257.5" y="142.2" width="169.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="342" y="152" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="342" dy="0.0">Подтверждение получения</tspan></text>
+<path class="e flow" d="M455,205 L230,205" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.48s" repeatCount="indefinite" path="M455,205 L230,205"/></circle>
+<rect class="lbg" x="324.0" y="182.2" width="36.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="342" y="192" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="342" dy="0.0">Счёт</tspan></text>
+<path class="e flow" d="M455,245 L230,245" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.85s" repeatCount="indefinite" path="M455,245 L230,245"/></circle>
+<rect class="lbg" x="264.5" y="222.2" width="155.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="342" y="232" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="342" dy="0.0">Уведомления о статусе</tspan></text>
+<path class="e flow" d="M685,135 L900,135" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.22s" repeatCount="indefinite" path="M685,135 L900,135"/></circle>
+<rect class="lbg" x="721.5" y="112.2" width="141.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="792" y="122" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="792" dy="0.0">Задание на доставку</tspan></text>
+<path class="e flow" d="M900,195 L685,195" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.59s" repeatCount="indefinite" path="M900,195 L685,195"/></circle>
+<rect class="lbg" x="735.5" y="172.2" width="113.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="792" y="182" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="792" dy="0.0">Статус доставки</tspan></text>
+<text class="t" x="560" y="318" font-size="12.5" font-weight="400" fill="#5b6477" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="560" dy="0.0">Входы и выходы процесса 0 = внешние потоки диаграммы уровня 1 (балансировка)</tspan></text>
+</svg>
