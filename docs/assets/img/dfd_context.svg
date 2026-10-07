@@ -4,14 +4,14 @@
 <rect width="1120" height="340" fill="#ffffff"/>
 <rect class="n" x="46" y="66" width="190" height="210" rx="0" fill="#c9d3ea" stroke="none" stroke-width="0" />
 <rect class="n" x="40" y="60" width="190" height="210" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2" />
-<text class="t" x="135.0" y="165.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="135.0" dy="0.0">Клиент</tspan></text>
+<text class="t" x="135.0" y="165.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="135.0" dy="0.0">Клиент</tspan></text>
 <rect class="n" x="455" y="50" width="230" height="230" rx="12" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.2" />
 <line class="n" x1="455" y1="78" x2="685" y2="78" stroke="#0b1b3f" stroke-width="1.6"/>
-<text class="t" x="570.0" y="65" font-size="13" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="0.0">0</tspan></text>
-<text class="t" x="570.0" y="179.0" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="-8.8">Обработка заказа</tspan><tspan x="570.0" dy="17.5">интернет-магазина</tspan></text>
+<text class="t" x="570.0" y="65" font-size="13.0" font-weight="700" fill="#2f5bea" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="0.0">0</tspan></text>
+<text class="t" x="570.0" y="179.0" font-size="14.0" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="570.0" dy="-8.8">Обработка заказа</tspan><tspan x="570.0" dy="17.5">интернет-магазина</tspan></text>
 <rect class="n" x="906" y="111" width="180" height="120" rx="0" fill="#c9d3ea" stroke="none" stroke-width="0" />
 <rect class="n" x="900" y="105" width="180" height="120" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="2" />
-<text class="t" x="990.0" y="165.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="990.0" dy="-9.4">Служба</tspan><tspan x="990.0" dy="18.8">доставки</tspan></text>
+<text class="t" x="990.0" y="165.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="990.0" dy="-9.4">Служба</tspan><tspan x="990.0" dy="18.8">доставки</tspan></text>
 <path class="e flow" d="M230,85 L455,85" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd0-a0)"/>
 <circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.37s" repeatCount="indefinite" path="M230,85 L455,85"/></circle>
 <rect class="lbg" x="320.5" y="62.2" width="43.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>

@@ -4,13 +4,13 @@
 <rect width="1000" height="960" fill="#ffffff"/>
 <rect class="n" x="10" y="10" width="320" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
 <rect class="n" x="10" y="10" width="320" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
-<text class="t" x="170.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="170.0" dy="0.0">Клиент</tspan></text>
+<text class="t" x="170.0" y="30" font-size="15.0" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="170.0" dy="0.0">Клиент</tspan></text>
 <rect class="n" x="330" y="10" width="330" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
 <rect class="n" x="330" y="10" width="330" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
-<text class="t" x="495.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="495.0" dy="0.0">Менеджер</tspan></text>
+<text class="t" x="495.0" y="30" font-size="15.0" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="495.0" dy="0.0">Менеджер</tspan></text>
 <rect class="n" x="660" y="10" width="330" height="940" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="1.6" />
 <rect class="n" x="660" y="10" width="330" height="40" rx="0" fill="#f6f8fc" stroke="#0b1b3f" stroke-width="1.6" />
-<text class="t" x="825.0" y="30" font-size="15" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="825.0" dy="0.0">Склад</tspan></text>
+<text class="t" x="825.0" y="30" font-size="15.0" font-weight="800" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="825.0" dy="0.0">Склад</tspan></text>
 <circle class="n" cx="170" cy="82" r="11" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1"/>
 <rect class="n" x="80.0" y="122.0" width="180" height="46" rx="16" fill="#eef2fb" stroke="#0b1b3f" stroke-width="2" />
 <text class="t" x="170" y="145" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="170" dy="0.0">Оформить заказ</tspan></text>
@@ -45,8 +45,8 @@
 <circle class="n" cx="615" cy="560" r="8" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1"/>
 <path class="e" d="M513,560 L601,560" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
 <rect class="lbg" x="516.0" y="515.0" width="81.9" height="34.0" rx="4" fill="#ffffff" fill-opacity="0.92"/>
-<text class="lt" x="557" y="532" font-size="12" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="557" dy="-7.5">[нет оплаты</tspan><tspan x="557" dy="15.0">за 3 дня]</tspan></text>
-<text class="t" x="615" y="600" font-size="12" font-weight="400" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="615" dy="-7.5">заказ</tspan><tspan x="615" dy="15.0">отменён</tspan></text>
+<text class="lt" x="557" y="532" font-size="12.0" font-weight="400" fill="#b45309" text-anchor="middle" font-style="italic" dominant-baseline="middle"><tspan x="557" dy="-7.5">[нет оплаты</tspan><tspan x="557" dy="15.0">за 3 дня]</tspan></text>
+<text class="t" x="615" y="600" font-size="12.0" font-weight="400" fill="#5b6477" text-anchor="middle" dominant-baseline="middle"><tspan x="615" dy="-7.5">заказ</tspan><tspan x="615" dy="15.0">отменён</tspan></text>
 <rect class="n" x="720" y="636" width="210" height="8" rx="0" fill="#0b1b3f" stroke="#0b1b3f" stroke-width="1" />
 <path class="e" d="M495,578 L495,615 L825,615 L825,636" fill="none" stroke="#0b1b3f" stroke-width="1.9" stroke-linejoin="round" marker-end="url(#umla-a0)"/>
 <rect class="lbg" x="357.0" y="588.2" width="134.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>

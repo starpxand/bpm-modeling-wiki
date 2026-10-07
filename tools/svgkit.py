@@ -6,6 +6,8 @@ from html import escape
 NAVY, BLUE, ORANGE, AMBER, INK, MUTED, PAPER, SOFT = (
     "#0b1b3f", "#2f5bea", "#ff8a3d", "#b45309", "#0f172a", "#5b6477", "#ffffff", "#f6f8fc")
 FONT = "Inter, 'Segoe UI', Arial, sans-serif"
+import os
+TEXT_SCALE = float(os.environ.get("TEXT_SCALE", "1"))  # крупный текст для слайдов
 
 
 def _lines(text: str) -> list[str]:
@@ -23,6 +25,7 @@ class Svg:
     # ---------- текст ----------
     def text(self, x, y, text, size=14, weight=400, anchor="start", fill=INK, cls="t", italic=False, lh=1.25):
         lines = _lines(text)
+        size = size * TEXT_SCALE
         dy0 = -(len(lines) - 1) * size * lh / 2 if anchor == "middle" and cls != "nody" else 0
         style = f'font-size="{size}" font-weight="{weight}" fill="{fill}" text-anchor="{anchor}"'
         if italic:
@@ -35,8 +38,9 @@ class Svg:
         """Подпись стрелки с белой подложкой."""
         lines = _lines(text)
         if bg:
-            w = max(len(l) for l in lines) * size * 0.56 + 8
-            h = len(lines) * size * 1.25 + 4
+            size_px = size * TEXT_SCALE
+            w = max(len(l) for l in lines) * size_px * 0.56 + 8
+            h = len(lines) * size_px * 1.25 + 4
             x0 = x - w / 2 if anchor == "middle" else (x - 4 if anchor == "start" else x - w + 4)
             self.add(f'<rect class="lbg" x="{x0:.1f}" y="{y - h / 2:.1f}" width="{w:.1f}" height="{h:.1f}" '
                      f'rx="4" fill="{PAPER}" fill-opacity="0.92"/>')
