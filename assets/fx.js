@@ -34,6 +34,11 @@
         noteBkgColor: "#fff4ea", noteBorderColor: "#ff8a3d", actorBkg: d ? "#16244a" : "#eef2fb",
         actorBorder: d ? "#7aa2ff" : "#0b1b3f", signalColor: d ? "#cdd8f3" : "#0b1b3f",
         edgeLabelBackground: d ? "#0d1424" : "#ffffff", clusterBkg: d ? "#121b30" : "#f6f8fc",
+        textColor: d ? "#e8edf8" : "#0f172a", nodeTextColor: d ? "#e8edf8" : "#0f172a",
+        attributeBackgroundColorOdd: d ? "#1b2a55" : "#ffffff", attributeBackgroundColorEven: d ? "#14214a" : "#f6f8fc",
+        rowOdd: d ? "#1b2a55" : "#ffffff", rowEven: d ? "#14214a" : "#f6f8fc",
+        labelTextColor: d ? "#e8edf8" : "#0f172a", stateLabelColor: d ? "#e8edf8" : "#0f172a",
+        transitionLabelColor: d ? "#cdd8f3" : "#0f172a", noteTextColor: "#0f172a",
       },
       flowchart: { curve: "basis", padding: 14, nodeSpacing: 45, rankSpacing: 50, htmlLabels: true },
       er: { fontSize: 14, layoutDirection: "TB" },
@@ -147,8 +152,8 @@
     const svg = fig.querySelector(".lh-fig__body svg");
     if (!svg) return;
     const { edges, nodes } = parts(svg);
-    nodes.forEach((n, i) => n.animate([{ opacity: 0, transform: "translateY(6px)" }, { opacity: 1, transform: "none" }],
-      { duration: 380, delay: Math.min(i * 22, 900), easing: "ease-out", fill: "backwards" }));
+    nodes.forEach((n, i) => n.animate([{ opacity: 0 }, { opacity: 1 }],
+      { duration: 420, delay: Math.min(i * 22, 900), easing: "ease-out", fill: "backwards" }));
     edges.forEach((p, i) => {
       let len = 0;
       try { len = p.getTotalLength(); } catch (e) { return; }
@@ -157,7 +162,8 @@
       p.style.strokeDasharray = `${len} ${len}`;
       const a = p.animate([{ strokeDashoffset: len }, { strokeDashoffset: 0 }],
         { duration: 700, delay: 250 + Math.min(i * 45, 1400), easing: "ease-in-out", fill: "backwards" });
-      a.onfinish = () => { p.style.strokeDasharray = keep ? "" : ""; };
+      const done = () => { p.style.strokeDasharray = ""; };
+      a.onfinish = done; a.oncancel = done;
     });
   }
 
@@ -239,6 +245,18 @@
         const canvas = viewer.get("canvas");
         canvas.zoom("fit-viewport", "auto");
         bpmnControls(host, viewer);
+        host.dataset.userZoom = "";
+        if ("ResizeObserver" in window) {
+          let last = "";
+          new ResizeObserver(() => {
+            const el = host.querySelector(".lh-bpmn__canvas");
+            const key = el.clientWidth + "x" + el.clientHeight;
+            if (!el.clientWidth || key === last) return;
+            last = key;
+            canvas.resized();
+            if (!host.dataset.userZoom) canvas.zoom("fit-viewport", "auto");
+          }).observe(host.querySelector(".lh-bpmn__canvas"));
+        }
       } catch (e) {  // нет доступа к CDN – показать статичную картинку модели
         const tmp = document.createElement("div");
         tmp.innerHTML = fallback;
@@ -257,34 +275,44 @@
     const stop = () => { clearTimeout(timer); timer = null; reg.getAll().forEach((e) => canvas.removeMarker(e.id, "lh-hl")); };
     host.querySelector(".lh-fig__bar").addEventListener("click", (e) => {
       const b = e.target.dataset.b;
-      if (b === "in") canvas.zoom(canvas.zoom() * 1.2);
-      if (b === "out") canvas.zoom(canvas.zoom() / 1.2);
-      if (b === "fit") canvas.zoom("fit-viewport", "auto");
+      if (b === "in") { host.dataset.userZoom = "1"; canvas.zoom(canvas.zoom() * 1.2); }
+      if (b === "out") { host.dataset.userZoom = "1"; canvas.zoom(canvas.zoom() / 1.2); }
+      if (b === "fit") { host.dataset.userZoom = ""; canvas.zoom("fit-viewport", "auto"); }
       if (b === "full") {
-        host.classList.toggle("lh-bpmn--full");
-        document.documentElement.classList.toggle("lh-noscroll", host.classList.contains("lh-bpmn--full"));
-        setTimeout(() => { canvas.resized(); canvas.zoom("fit-viewport", "auto"); }, 60);
+        const on = host.classList.toggle("lh-bpmn--full");
+        document.documentElement.classList.toggle("lh-noscroll", on);
+        e.target.textContent = on ? "✕ Свернуть" : "⤢ Во весь экран";
+        if (on) {
+          const esc = (ev) => { if (ev.key === "Escape" && host.classList.contains("lh-bpmn--full")) {
+            e.target.click(); removeEventListener("keydown", esc); } };
+          addEventListener("keydown", esc);
+        }
+        host.dataset.userZoom = "";
+        [60, 250, 600].forEach((t) => setTimeout(() => { canvas.resized(); canvas.zoom("fit-viewport", "auto"); }, t));
       }
       if (b === "run") {
         if (timer) { stop(); step.textContent = ""; e.target.textContent = "▶ Пройти процесс"; return; }
+        stop();
         e.target.textContent = "■ Остановить";
-        canvas.zoom(0.62);
+        host.dataset.userZoom = "";
+        canvas.zoom("fit-viewport", "auto");
         const start = reg.filter((el) => el.type === "bpmn:StartEvent")[0];
         let cur = start, n = 0;
         const seen = new Set();
         const tick = () => {
           if (!cur || seen.has(cur.id)) { step.textContent = "Процесс пройден по основному пути ✓"; timer = null;
             e.target.textContent = "▶ Пройти процесс";
-            setTimeout(() => { stop(); canvas.zoom("fit-viewport", "auto"); }, 1600); return; }
+            setTimeout(() => { if (!timer) { stop(); step.textContent = ""; } }, 3000); return; }
           seen.add(cur.id);
           canvas.addMarker(cur.id, "lh-hl");
-          try { canvas.scrollToElement(cur, { top: 140, bottom: 140, left: 260, right: 260 }); } catch (err) { /* старые версии */ }
           const name = cur.businessObject.name;
           if (name && !/Flow$/.test(cur.type)) step.textContent = `${++n}. ${name.replace(/\s+/g, " ")}`;
           const outs = (cur.outgoing || []).filter((c) => c.type === "bpmn:SequenceFlow");
-          // на шлюзах выбирается «положительная» ветвь (Да / корректна / нет замечаний)
-          const pick = outs.find((c) => /^(да|нет замечаний|да,|корректна)/i.test(c.businessObject.name || "")) ||
-                       outs.find((c) => !/^нет/i.test(c.businessObject.name || "")) || outs[0];
+          // на шлюзах – основной (успешный) путь: «Да», а для вопросов о проблемах («претензии?») – «Нет»
+          const negQ = /претенз|замечан|ошибк|задерж|отклонен/i.test(name || "");
+          const want = negQ ? /^нет/i : /^да/i;
+          const pick = outs.find((c) => want.test(c.businessObject.name || "")) ||
+                       outs.find((c) => !/^(нет|да)/i.test(c.businessObject.name || "")) || outs[0];
           if (pick) { canvas.addMarker(pick.id, "lh-hl"); cur = pick.target; } else cur = null;
           timer = setTimeout(tick, cur && /Event$/.test(cur.type) ? 500 : 750);
         };

@@ -59,7 +59,7 @@ html.lh-noscroll { overflow: hidden; }
 @keyframes lh-fade { from { opacity: 0; } }
 
 /* ---------- BPMN (bpmn-js) ---------- */
-.lh-bpmn__canvas { height: 420px; background: #fff; }
+.lh-bpmn__canvas { height: clamp(220px, 30vw, 500px); width: 100%; background: #fff; }
 .lh-bpmn__step { min-height: 1.6rem; padding: .35rem .9rem; font-size: .68rem; font-weight: 600; color: var(--lh-orange); }
 .lh-bpmn--full { position: fixed !important; inset: 12px; z-index: 1000; margin: 0 !important; display: flex; flex-direction: column; }
 .lh-bpmn--full .lh-bpmn__canvas { flex: 1; height: auto; }
@@ -181,3 +181,10 @@ html.lh-noscroll { overflow: hidden; }
 .lh-team__list { list-style: none; margin: .45rem 0 .5rem; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
 .lh-team__list li { margin: 0; padding: .35em .85em; border-radius: 99px; font-size: .74rem; font-weight: 700; color: #fff;
   background: rgba(255,255,255,.1); border: 1px solid rgba(255,181,71,.45); }
+
+/* узкие экраны: панель кнопок переносится, рамка диаграммы не шире страницы */
+.md-typeset .lh-fig { min-width: 0; max-width: 100%; }
+.lh-fig__bar { flex-wrap: wrap; row-gap: .35rem; }
+.lh-fig__cap { min-width: 10rem; }
+.md-typeset .lh-bpmn--full { display: flex; width: auto; max-width: none; }
+.lh-bpmn--full .lh-bpmn__canvas { height: auto; }
