@@ -77,8 +77,8 @@ markdown_extensions:
 
 extra_css:
   - assets/extra.css?v=2
-  - assets/fx.css?v=2
+  - assets/fx.css?v=4
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.min.js
-  - assets/fx.js?v=2
+  - assets/fx.js?v=4
