@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 720" width="1240" height="720" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="IDEF0 – декомпозиция A0 «Обработать заказ интернет-магазина»" class="lh-svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1310 720" width="1310" height="720" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="IDEF0 – декомпозиция A0 «Обработать заказ интернет-магазина»" class="lh-svg">
 <title>IDEF0 – декомпозиция A0 «Обработать заказ интернет-магазина»</title>
 <defs><marker id="idef0-a0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f5bea"/></marker><marker id="idef0-a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#ff8a3d"/></marker><marker id="idef0-a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0b1b3f"/></marker><style>.e{stroke-linecap:round}@media (prefers-reduced-motion:reduce){.pkt{display:none}}</style></defs>
-<rect width="1240" height="720" fill="#ffffff"/>
+<rect width="1310" height="720" fill="#ffffff"/>
 <rect class="n" x="170" y="110" width="200" height="84" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.4" />
-<text class="t" x="270.0" y="152.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="270.0" dy="-9.4">Принять и</tspan><tspan x="270.0" dy="18.8">проверить заказ</tspan></text>
-<text class="t" x="362" y="183" font-size="12" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="362" dy="0.0">A1</tspan></text>
+<text class="t" x="270.0" y="152.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="270.0" dy="-9.4">Принять и</tspan><tspan x="270.0" dy="18.8">проверить заказ</tspan></text>
+<text class="t" x="362" y="183" font-size="12.0" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="362" dy="0.0">A1</tspan></text>
 <rect class="n" x="420" y="225" width="200" height="84" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.4" />
-<text class="t" x="520.0" y="267.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="520.0" dy="-9.4">Выставить счёт</tspan><tspan x="520.0" dy="18.8">и получить оплату</tspan></text>
-<text class="t" x="612" y="298" font-size="12" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="612" dy="0.0">A2</tspan></text>
+<text class="t" x="520.0" y="267.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="520.0" dy="-9.4">Выставить счёт</tspan><tspan x="520.0" dy="18.8">и получить оплату</tspan></text>
+<text class="t" x="612" y="298" font-size="12.0" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="612" dy="0.0">A2</tspan></text>
 <rect class="n" x="680" y="340" width="200" height="84" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.4" />
-<text class="t" x="780.0" y="382.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="780.0" dy="-9.4">Скомплектовать</tspan><tspan x="780.0" dy="18.8">заказ</tspan></text>
-<text class="t" x="872" y="413" font-size="12" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="872" dy="0.0">A3</tspan></text>
+<text class="t" x="780.0" y="382.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="780.0" dy="-9.4">Скомплектовать</tspan><tspan x="780.0" dy="18.8">заказ</tspan></text>
+<text class="t" x="872" y="413" font-size="12.0" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="872" dy="0.0">A3</tspan></text>
 <rect class="n" x="930" y="455" width="200" height="84" rx="0" fill="#ffffff" stroke="#0b1b3f" stroke-width="2.4" />
-<text class="t" x="1030.0" y="497.0" font-size="15" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="1030.0" dy="-9.4">Доставить</tspan><tspan x="1030.0" dy="18.8">и закрыть заказ</tspan></text>
-<text class="t" x="1122" y="528" font-size="12" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="1122" dy="0.0">A4</tspan></text>
+<text class="t" x="1030.0" y="497.0" font-size="15.0" font-weight="700" fill="#0b1b3f" text-anchor="middle" dominant-baseline="middle"><tspan x="1030.0" dy="-9.4">Доставить</tspan><tspan x="1030.0" dy="18.8">и закрыть заказ</tspan></text>
+<text class="t" x="1122" y="528" font-size="12.0" font-weight="700" fill="#5b6477" text-anchor="end" dominant-baseline="middle"><tspan x="1122" dy="0.0">A4</tspan></text>
 <path class="e" d="M270,60 L270,110" fill="none" stroke="#2f5bea" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a0)"/>
 <text class="t" x="278" y="64" font-size="12.5" font-weight="400" fill="#2f5bea" text-anchor="start" dominant-baseline="middle"><tspan x="278" dy="0.0">Правила продаж</tspan></text>
 <path class="e" d="M520,60 L520,225" fill="none" stroke="#2f5bea" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a0)"/>
@@ -42,20 +42,20 @@
 <path class="e" d="M880,365 L905,365 L905,480 L930,480" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a2)"/>
 <rect class="lbg" x="905.0" y="390.4" width="120.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="909" y="408" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="909" dy="0.0">Собранный заказ,</tspan><tspan x="909" dy="15.6">накладная</tspan></text>
-<path class="e" d="M620,285 L773,285 A7,7 0 0 1 787,285 L1023,285 A7,7 0 0 1 1037,285 L1215,285" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a2)"/>
+<path class="e" d="M620,285 L773,285 A7,7 0 0 1 787,285 L1023,285 A7,7 0 0 1 1037,285 L1285,285" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a2)"/>
 <rect class="lbg" x="1074.0" y="261.2" width="92.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1120" y="271" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1120" dy="0.0">Счёт клиенту</tspan></text>
-<path class="e" d="M1130,497 L1215,497" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a2)"/>
-<rect class="lbg" x="1130.5" y="507.4" width="85.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
-<text class="lt" x="1173" y="525" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1173" dy="-7.8">Выполненный</tspan><tspan x="1173" dy="15.6">заказ</tspan></text>
-<rect class="n" x="10" y="10" width="1220" height="700" rx="0" fill="none" stroke="#0b1b3f" stroke-width="1.4" />
-<line class="n" x1="10" y1="662" x2="1230" y2="662" stroke="#0b1b3f" stroke-width="1.4"/>
+<path class="e" d="M1130,497 L1285,497" fill="none" stroke="#0b1b3f" stroke-width="2" stroke-linejoin="round" marker-end="url(#idef0-a2)"/>
+<rect class="lbg" x="1172.5" y="507.4" width="85.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="1215" y="525" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1215" dy="-7.8">Выполненный</tspan><tspan x="1215" dy="15.6">заказ</tspan></text>
+<rect class="n" x="10" y="10" width="1290" height="700" rx="0" fill="none" stroke="#0b1b3f" stroke-width="1.4" />
+<line class="n" x1="10" y1="662" x2="1300" y2="662" stroke="#0b1b3f" stroke-width="1.4"/>
 <line class="n" x1="150" y1="662" x2="150" y2="710" stroke="#0b1b3f" stroke-width="1.4"/>
-<line class="n" x1="1090" y1="662" x2="1090" y2="710" stroke="#0b1b3f" stroke-width="1.4"/>
+<line class="n" x1="1160" y1="662" x2="1160" y2="710" stroke="#0b1b3f" stroke-width="1.4"/>
 <text class="t" x="22" y="678" font-size="10.5" font-weight="700" fill="#5b6477" text-anchor="start" dominant-baseline="middle"><tspan x="22" dy="0.0">УЗЕЛ:</tspan></text>
-<text class="t" x="22" y="698" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="22" dy="0.0">A0</tspan></text>
+<text class="t" x="22" y="698" font-size="14.0" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="22" dy="0.0">A0</tspan></text>
 <text class="t" x="162" y="678" font-size="10.5" font-weight="700" fill="#5b6477" text-anchor="start" dominant-baseline="middle"><tspan x="162" dy="0.0">НАЗВАНИЕ:</tspan></text>
-<text class="t" x="162" y="698" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="162" dy="0.0">Обработать заказ интернет-магазина</tspan></text>
-<text class="t" x="1102" y="678" font-size="10.5" font-weight="700" fill="#5b6477" text-anchor="start" dominant-baseline="middle"><tspan x="1102" dy="0.0">НОМЕР:</tspan></text>
-<text class="t" x="1102" y="698" font-size="14" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="1102" dy="0.0">2</tspan></text>
+<text class="t" x="162" y="698" font-size="14.0" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="162" dy="0.0">Обработать заказ интернет-магазина</tspan></text>
+<text class="t" x="1172" y="678" font-size="10.5" font-weight="700" fill="#5b6477" text-anchor="start" dominant-baseline="middle"><tspan x="1172" dy="0.0">НОМЕР:</tspan></text>
+<text class="t" x="1172" y="698" font-size="14.0" font-weight="700" fill="#0b1b3f" text-anchor="start" dominant-baseline="middle"><tspan x="1172" dy="0.0">2</tspan></text>
 </svg>
