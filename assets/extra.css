@@ -1,5 +1,14 @@
 /* Мини-wiki – оформление поверх Material for MkDocs */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
 :root {
   --lh-navy: #0b1b3f;
   --lh-navy-2: #13295c;
