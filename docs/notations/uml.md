@@ -163,8 +163,8 @@ UML 2.5 определяет **14 видов диаграмм**, разделё�
 <div class="lh-refs" markdown>
 
 - [[2]](../sources.md#src-2) Фаулер, М. UML. Основы. Краткое руководство по стандартному языку объектного моделирования / М. Фаулер ; пер. с англ. А. Петухова. – 3-е изд. – Санкт-Петербург : Символ-Плюс, 2004. – 192 с.
-- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
-- [[15]](../sources.md#src-15) OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <https://www.omg.org/spec/UML/2.5.1/> (дата обращения: 07.10.2026).
-- [[17]](../sources.md#src-17) UML activity diagrams // UML Diagrams : сайт. – URL: <https://www.uml-diagrams.org/activity-diagrams.html> (дата обращения: 07.10.2026).
+- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 17.10.2026).
+- [[15]](../sources.md#src-15) OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <https://www.omg.org/spec/UML/2.5.1/> (дата обращения: 17.10.2026).
+- [[17]](../sources.md#src-17) UML activity diagrams // UML Diagrams : сайт. – URL: <https://www.uml-diagrams.org/activity-diagrams.html> (дата обращения: 17.10.2026).
 
 </div>

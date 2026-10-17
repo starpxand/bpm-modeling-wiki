@@ -23,7 +23,7 @@
 <rect class="lbg" x="806.5" y="266.2" width="127.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="870" y="276" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="870" dy="0.0">Выполненный заказ</tspan></text>
 <path class="e" d="M550,450 L550,330" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linejoin="round" marker-end="url(#idefc-a2)"/>
-<text class="t" x="550" y="468" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" dominant-baseline="middle"><tspan x="550" dy="0.0">Менеджер, кладовщик, курьер; информационная система магазина</tspan></text>
+<text class="t" x="550" y="468" font-size="12.5" font-weight="400" fill="#b45309" text-anchor="middle" dominant-baseline="middle"><tspan x="550" dy="0.0">Персонал (менеджер, кладовщик, курьер); ИС магазина, платёжный сервис, служба доставки, сканер</tspan></text>
 <text class="t" x="30" y="32" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="30" dy="0.0">Цель: показать функции обработки заказа, их входы, результаты, правила и ресурсы</tspan></text>
 <text class="t" x="30" y="52" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="start" dominant-baseline="middle"><tspan x="30" dy="0.0">Точка зрения: руководитель интернет-магазина</tspan></text>
 <rect class="n" x="10" y="10" width="1080" height="540" rx="0" fill="none" stroke="#0b1b3f" stroke-width="1.4" />

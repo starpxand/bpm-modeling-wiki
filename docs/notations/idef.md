@@ -87,8 +87,8 @@
 
 <div class="lh-refs" markdown>
 
-- [[10]](../sources.md#src-10) IDEF3 – Process Description Capture Method // IDEF : Integrated DEFinition Methods : сайт. – URL: <https://www.idef.com/idef3-process-description-capture-method/> (дата обращения: 07.10.2026).
-- [[11]](../sources.md#src-11) Integration Definition for Function Modeling (IDEF0) : Federal Information Processing Standards Publication 183 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub183.pdf> (дата обращения: 07.10.2026).
-- [[12]](../sources.md#src-12) Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 07.10.2026).
+- [[10]](../sources.md#src-10) IDEF3 – Process Description Capture Method // IDEF : Integrated DEFinition Methods : сайт. – URL: <https://www.idef.com/idef3-process-description-capture-method/> (дата обращения: 17.10.2026).
+- [[11]](../sources.md#src-11) Integration Definition for Function Modeling (IDEF0) : Federal Information Processing Standards Publication 183 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub183.pdf> (дата обращения: 17.10.2026).
+- [[12]](../sources.md#src-12) Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 17.10.2026).
 
 </div>

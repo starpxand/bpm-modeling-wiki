@@ -113,8 +113,8 @@ erDiagram
 <div class="lh-refs" markdown>
 
 - [[7]](../sources.md#src-7) Chen, P. P. The Entity-Relationship Model – Toward a Unified View of Data / P. P. Chen // ACM Transactions on Database Systems. – 1976. – Vol. 1, № 1. – P. 9–36.
-- [[12]](../sources.md#src-12) Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 07.10.2026).
-- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
-- [[20]](../sources.md#src-20) What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/er-diagrams> (дата обращения: 07.10.2026).
+- [[12]](../sources.md#src-12) Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 17.10.2026).
+- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 17.10.2026).
+- [[20]](../sources.md#src-20) What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <https://lucid.co/diagram/erd/tutorial> (дата обращения: 17.10.2026).
 
 </div>

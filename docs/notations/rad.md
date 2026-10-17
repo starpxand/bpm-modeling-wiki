@@ -62,7 +62,7 @@ Re-engineering and Improvement» [[16]](../sources.md#src-16). Роль – эт
 
 <div class="lh-refs" markdown>
 
-- [[3]](../sources.md#src-3) A Guide to Role Activity Diagrams // ixchelte : [блог]. – 2011. – URL: <https://ixchelte.wordpress.com/2011/10/24/a-guide-to-role-activity-diagrams/> (дата обращения: 07.10.2026).
+- [[3]](../sources.md#src-3) A Guide to Role Activity Diagrams // ixchelte : [блог]. – 2011. – URL: <https://ixchelte.wordpress.com/2011/10/24/a-guide-to-role-activity-diagrams/> (дата обращения: 17.10.2026).
 - [[16]](../sources.md#src-16) Ould, M. A. Business Processes : Modelling and Analysis for Re-engineering and Improvement / M. A. Ould. – Chichester : John Wiley & Sons, 1995. – 224 p.
 
 </div>

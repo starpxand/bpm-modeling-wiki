@@ -63,9 +63,9 @@
 
 <div class="lh-refs" markdown>
 
-- [[8]](../sources.md#src-8) Data-flow diagram // Wikipedia : the free encyclopedia : сайт. – URL: <https://en.wikipedia.org/wiki/Data-flow_diagram> (дата обращения: 07.10.2026).
+- [[8]](../sources.md#src-8) Data-flow diagram // Wikipedia : the free encyclopedia : сайт. – URL: <https://en.wikipedia.org/wiki/Data-flow_diagram> (дата обращения: 17.10.2026).
 - [[9]](../sources.md#src-9) Gane, C. Structured Systems Analysis : Tools and Techniques / C. Gane, T. Sarson. – Englewood Cliffs : Prentice-Hall, 1979. – 241 p.
-- [[18]](../sources.md#src-18) What Is a Data Flow Diagram? Symbols and Examples // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/data-flow-diagram> (дата обращения: 07.10.2026).
+- [[18]](../sources.md#src-18) What Is a Data Flow Diagram? Symbols and Examples // Lucid : сайт. – URL: <https://lucid.co/diagram/dfd/tutorial> (дата обращения: 17.10.2026).
 - [[21]](../sources.md#src-21) Yourdon, E. Modern Structured Analysis / E. Yourdon. – Englewood Cliffs : Yourdon Press, 1989. – 672 p.
 
 </div>
