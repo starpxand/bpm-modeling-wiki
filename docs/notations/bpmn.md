@@ -32,7 +32,7 @@ hide:
 |---|---|---|
 | События | стартовое, промежуточное, конечное; таймер, сообщение, ошибка | круги с тонкой, двойной и толстой границей, значок типа внутри |
 | Действия | задача (пользовательская, сервисная, ручная), подпроцесс | скруглённый прямоугольник, значок типа в углу |
-| Шлюзы | исключающий (XOR), параллельный (AND), включающий (OR), по событиям | ромб со значком «X», «+», «O» |
+| Шлюзы | исключающий (XOR), параллельный (AND), включающий (OR), по событиям | ромб со значком «X», «+», «O»; по событиям – пятиугольник в двойном круге |
 | Потоки | поток операций, поток сообщений, ассоциация | сплошная стрелка, пунктир с кружком, пунктир |
 | Зоны ответственности | пул, дорожка | прямоугольник, разделённый на полосы |
 | Данные и артефакты | объект данных, хранилище, группа, аннотация | лист с загнутым углом, цилиндр, пунктирная рамка, скобка |
@@ -66,8 +66,14 @@ hide:
     задержка доставки) и данные. Структуру базы данных и функциональную декомпозицию лучше
     описывать ERD и IDEF0.
 
-## Ссылки
+## Ссылки на источники
 
-1. Business Process Model and Notation (BPMN). Version 2.0 / Object Management Group. – Needham, 2011. – 538 p. – URL: <https://www.omg.org/spec/BPMN/2.0/> (дата обращения: 07.10.2026).
-2. BPMN 2.0 Symbols – A complete guide with examples // Camunda : сайт. – URL: <https://camunda.com/bpmn/reference/> (дата обращения: 07.10.2026).
-3. bpmn.io : web-based tooling for BPMN, DMN, CMMN, and Forms : сайт. – URL: <https://bpmn.io> (дата обращения: 07.10.2026).
+Номера совпадают с общим [списком источников](../sources.md).
+
+<div class="lh-refs" markdown>
+
+- [[4]](../sources.md#src-4) BPMN 2.0 Symbols – A complete guide with examples // Camunda : сайт. – URL: <https://camunda.com/bpmn/reference/> (дата обращения: 07.10.2026).
+- [[5]](../sources.md#src-5) bpmn.io : web-based tooling for BPMN, DMN, CMMN, and Forms : сайт. – URL: <https://bpmn.io> (дата обращения: 07.10.2026).
+- [[6]](../sources.md#src-6) Business Process Model and Notation (BPMN). Version 2.0 / Object Management Group. – Needham, 2011. – 538 p. – URL: <https://www.omg.org/spec/BPMN/2.0/> (дата обращения: 07.10.2026).
+
+</div>

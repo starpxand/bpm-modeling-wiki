@@ -41,9 +41,12 @@
 3. Для каждой связи указываются кардинальность (1:1, 1:N, M:N) и обязательность участия.
 4. Связи «многие ко многим» на логическом уровне разрешаются промежуточной сущностью.
 5. Модель нормализуется (как правило, до третьей нормальной формы) – каждый факт хранится в одном месте.
-6. Вычисляемые значения (например, итоговая стоимость) не дублируются без необходимости.
+6. Вычисляемые значения хранятся, только если это оправдано: например, сумма заказа фиксируется на момент оформления, потому что цены товаров со временем меняются.
 
 ## Пример: данные процесса обработки заказа (нотация «воронья лапка»)
+
+Сущности и связи интернет-магазина; цена в «Позиции заказа» и сумма в «Заказе» хранятся на момент
+оформления. Диаграмма описана кодом в Mermaid [[14]](../sources.md#src-14).
 
 ```mermaid
 erDiagram
@@ -103,9 +106,15 @@ erDiagram
     позиций, а связь «многие ко многим» между заказами и товарами разрешена промежуточной сущностью
     «Позиция заказа». Как и когда эти данные появляются, по диаграмме понять нельзя.
 
-## Ссылки
+## Ссылки на источники
 
-1. Chen, P. P. The Entity-Relationship Model – Toward a Unified View of Data / P. P. Chen // ACM Transactions on Database Systems. – 1976. – Vol. 1, № 1. – P. 9-36.
-2. Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 07.10.2026).
-3. What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/er-diagrams> (дата обращения: 07.10.2026).
-4. Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+Номера совпадают с общим [списком источников](../sources.md).
+
+<div class="lh-refs" markdown>
+
+- [[7]](../sources.md#src-7) Chen, P. P. The Entity-Relationship Model – Toward a Unified View of Data / P. P. Chen // ACM Transactions on Database Systems. – 1976. – Vol. 1, № 1. – P. 9–36.
+- [[12]](../sources.md#src-12) Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf> (дата обращения: 07.10.2026).
+- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+- [[20]](../sources.md#src-20) What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/er-diagrams> (дата обращения: 07.10.2026).
+
+</div>

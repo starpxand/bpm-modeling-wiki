@@ -12,7 +12,7 @@
 **UML (Unified Modeling Language)** – графический язык для визуализации, спецификации и
 документирования программных систем. Создан в 1990-х годах объединением методов **Г. Буча,
 Дж. Рамбо и А. Джекобсона**, с 1997 года развивается консорциумом **OMG**; актуальная версия
-– **UML 2.5.1** (2017) [[15]](../sources.md#src-15), соответствует стандарту ISO/IEC 19505.
+– **UML 2.5.1** (2017) [[15]](../sources.md#src-15); версия 2.4.1 утверждена как международный стандарт ISO/IEC 19505.
 
 UML 2.5 определяет **14 видов диаграмм**, разделённых на структурные (классов, компонентов,
 развёртывания, объектов, пакетов, композитной структуры, профилей) и поведенческие
@@ -50,6 +50,9 @@ UML 2.5 определяет **14 видов диаграмм**, разделё�
 5. Выбирается тот вид диаграммы, который отвечает на вопрос: поток действий – деятельность, обмен сообщениями – последовательность, жизненный цикл объекта – состояния.
 
 ## Примеры
+
+Диаграмма деятельности – векторный рисунок по правилам нотации, диаграммы последовательности, состояний
+и классов описаны кодом в Mermaid [[14]](../sources.md#src-14).
 
 === "Диаграмма деятельности"
 
@@ -117,29 +120,29 @@ UML 2.5 определяет **14 видов диаграмм**, разделё�
     ```mermaid
     classDiagram
         class Customer {
-            +int id
-            +str name
-            +str phone
+            +Integer id
+            +String name
+            +String phone
         }
         class Order {
-            +int id
-            +str status
-            +decimal total
-            +add_item(product, qty)
-            +set_status(status)
+            +Integer id
+            +String status
+            +Decimal total
+            +addItem(product, qty)
+            +setStatus(status)
         }
         class OrderItem {
-            +int quantity
-            +decimal price
+            +Integer quantity
+            +Decimal price
         }
         class Product {
-            +int id
-            +str title
-            +int stock
+            +Integer id
+            +String title
+            +Integer stock
         }
         class Payment {
-            +decimal amount
-            +date paid_at
+            +Decimal amount
+            +Date paid_at
         }
         Customer "1" --> "*" Order : оформляет
         Order "1" *-- "1..*" OrderItem : содержит
@@ -153,9 +156,15 @@ UML 2.5 определяет **14 видов диаграмм**, разделё�
     системами магазина, диаграмма классов – структуру программной системы. Бизнес-пользователю
     такие диаграммы читать сложнее, чем BPMN.
 
-## Ссылки
+## Ссылки на источники
 
-1. OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <https://www.omg.org/spec/UML/2.5.1/> (дата обращения: 07.10.2026).
-2. Фаулер, М. UML. Основы. Краткое руководство по стандартному языку объектного моделирования / М. Фаулер ; пер. с англ. А. Петухова. – 3-е изд. – Санкт-Петербург : Символ-Плюс, 2004. – 192 с.
-3. UML activity diagrams // UML Diagrams : сайт. – URL: <https://www.uml-diagrams.org/activity-diagrams.html> (дата обращения: 07.10.2026).
-4. Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+Номера совпадают с общим [списком источников](../sources.md).
+
+<div class="lh-refs" markdown>
+
+- [[2]](../sources.md#src-2) Фаулер, М. UML. Основы. Краткое руководство по стандартному языку объектного моделирования / М. Фаулер ; пер. с англ. А. Петухова. – 3-е изд. – Санкт-Петербург : Символ-Плюс, 2004. – 192 с.
+- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+- [[15]](../sources.md#src-15) OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <https://www.omg.org/spec/UML/2.5.1/> (дата обращения: 07.10.2026).
+- [[17]](../sources.md#src-17) UML activity diagrams // UML Diagrams : сайт. – URL: <https://www.uml-diagrams.org/activity-diagrams.html> (дата обращения: 07.10.2026).
+
+</div>

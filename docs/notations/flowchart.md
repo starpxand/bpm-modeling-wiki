@@ -45,8 +45,9 @@
 
 ## Пример: обработка заказа в интернет-магазине
 
-В примере использованы все основные символы: терминаторы, ввод данных, процессы, решения,
-документ и предопределённые процессы (сборка и доставка описаны отдельными схемами).
+В примере использованы основные символы: терминаторы, ввод данных, процессы, решения, документ
+и предопределённые процессы – сборка и доставка показаны блоками, детализация которых выносится
+в отдельные схемы. Схема описана кодом в Mermaid [[14]](../sources.md#src-14).
 
 ```mermaid
 flowchart TD
@@ -75,9 +76,15 @@ flowchart TD
     Блок-схема хорошо показывает порядок шагов и точки принятия решений, но из неё нельзя
     понять, какой шаг выполняет клиент, а какой – менеджер, склад или курьер.
 
-## Ссылки
+## Ссылки на источники
 
-1. ГОСТ 19.701-90 (ИСО 5807-85). Единая система программной документации. Схемы алгоритмов, программ, данных и систем. Обозначения условные и правила выполнения : межгосударственный стандарт : утв. и введен в действие Постановлением Государственного комитета СССР по управлению качеством продукции и стандартам от 26 декабря 1990 г. № 3294 : взамен ГОСТ 19.002-80, ГОСТ 19.003-80 : дата введения 1992-01-01. – Москва : Стандартинформ, 2010. – 24 с.
-2. ISO 5807:1985. Information processing – Documentation symbols and conventions for data, program and system flowcharts, program network charts and system resources charts. – Geneva : International Organization for Standardization, 1985. – URL: <https://www.iso.org/standard/11955.html> (дата обращения: 07.10.2026).
-3. What Is a Flowchart? Symbols, Types and Examples // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial> (дата обращения: 07.10.2026).
-4. Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+Номера совпадают с общим [списком источников](../sources.md).
+
+<div class="lh-refs" markdown>
+
+- [[1]](../sources.md#src-1) ГОСТ 19.701-90 (ИСО 5807-85). Единая система программной документации. Схемы алгоритмов, программ, данных и систем. Обозначения условные и правила выполнения : межгосударственный стандарт : издание официальное : утв. и введен в действие Постановлением Государственного комитета СССР по управлению качеством продукции и стандартам от 26 декабря 1990 г. № 3294 : взамен ГОСТ 19.002-80, ГОСТ 19.003-80 : дата введения 1992-01-01. – Москва : Стандартинформ, 2010. – 24 с.
+- [[13]](../sources.md#src-13) ISO 5807:1985. Information processing – Documentation symbols and conventions for data, program and system flowcharts, program network charts and system resources charts. – Geneva : International Organization for Standardization, 1985. – URL: <https://www.iso.org/standard/11955.html> (дата обращения: 07.10.2026).
+- [[14]](../sources.md#src-14) Mermaid : diagramming and charting tool : сайт. – URL: <https://mermaid.js.org> (дата обращения: 07.10.2026).
+- [[19]](../sources.md#src-19) What Is a Flowchart? Symbols, Types and Examples // Lucid : сайт. – URL: <https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial> (дата обращения: 07.10.2026).
+
+</div>

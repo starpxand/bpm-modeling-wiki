@@ -56,7 +56,13 @@ Re-engineering and Improvement» [[16]](../sources.md#src-16). Роль – эт
     только после передачи заказа и собирает и упаковывает товар параллельно. Данные и системы,
     которые при этом используются, на диаграмме не видны.
 
-## Ссылки
+## Ссылки на источники
 
-1. Ould, M. A. Business Processes : Modelling and Analysis for Re-engineering and Improvement / M. A. Ould. – Chichester : John Wiley & Sons, 1995. – 224 p.
-2. A Guide to Role Activity Diagrams // ixchelte : [блог]. – 2011. – URL: <https://ixchelte.wordpress.com/2011/10/24/a-guide-to-role-activity-diagrams/> (дата обращения: 07.10.2026).
+Номера совпадают с общим [списком источников](../sources.md).
+
+<div class="lh-refs" markdown>
+
+- [[3]](../sources.md#src-3) A Guide to Role Activity Diagrams // ixchelte : [блог]. – 2011. – URL: <https://ixchelte.wordpress.com/2011/10/24/a-guide-to-role-activity-diagrams/> (дата обращения: 07.10.2026).
+- [[16]](../sources.md#src-16) Ould, M. A. Business Processes : Modelling and Analysis for Re-engineering and Improvement / M. A. Ould. – Chichester : John Wiley & Sons, 1995. – 224 p.
+
+</div>
