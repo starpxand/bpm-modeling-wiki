@@ -68,40 +68,44 @@
 <circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.22s" repeatCount="indefinite" path="M520,610 L445,610"/></circle>
 <rect class="lbg" x="464.0" y="615.2" width="36.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="482" y="625" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="482" dy="0.0">Цены</tspan></text>
+<path class="e flow" d="M420,530 L420,337 L520,337" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.1s" begin="0.59s" repeatCount="indefinite" path="M420,530 L420,337 L520,337"/></circle>
+<rect class="lbg" x="343.0" y="412.4" width="71.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+<text class="lt" x="410" y="430" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="end" dominant-baseline="middle"><tspan x="410" dy="0.0">Отметка</tspan><tspan x="410" dy="15.6">об оплате</tspan></text>
 <path class="e flow" d="M730,330 L775,330 L775,110 L820,110" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.2s" begin="0.59s" repeatCount="indefinite" path="M730,330 L775,330 L775,110 L820,110"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.2s" begin="0.96s" repeatCount="indefinite" path="M730,330 L775,330 L775,110 L820,110"/></circle>
 <rect class="lbg" x="722.0" y="210.2" width="106.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="775" y="220" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="775" dy="0.0">Заказ к сборке</tspan></text>
 <path class="e flow" d="M1080,110 L1015,110" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.96s" repeatCount="indefinite" path="M1080,110 L1015,110"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.33s" repeatCount="indefinite" path="M1080,110 L1015,110"/></circle>
 <rect class="lbg" x="1018.5" y="62.2" width="57.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1047" y="72" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1047" dy="0.0">Наличие</tspan></text>
 <path class="e flow" d="M917,160 L917,530" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.6s" begin="1.33s" repeatCount="indefinite" path="M917,160 L917,530"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.6s" begin="1.70s" repeatCount="indefinite" path="M917,160 L917,530"/></circle>
 <rect class="lbg" x="857.0" y="327.4" width="120.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="917" y="345" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="917" dy="-7.8">Собранный заказ,</tspan><tspan x="917" dy="15.6">накладная</tspan></text>
 <path class="e flow" d="M1015,555 L1115,555" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.70s" repeatCount="indefinite" path="M1015,555 L1115,555"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.07s" repeatCount="indefinite" path="M1015,555 L1115,555"/></circle>
 <rect class="lbg" x="1026.0" y="510.4" width="78.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1065" y="528" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1065" dy="-7.8">Задание на</tspan><tspan x="1065" dy="15.6">доставку</tspan></text>
 <path class="e flow" d="M1115,590 L1015,590" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.07s" repeatCount="indefinite" path="M1115,590 L1015,590"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.44s" repeatCount="indefinite" path="M1115,590 L1015,590"/></circle>
 <rect class="lbg" x="1033.0" y="594.4" width="64.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1065" y="612" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1065" dy="-7.8">Статус</tspan><tspan x="1065" dy="15.6">доставки</tspan></text>
 <path class="e flow" d="M917,630 L917,690" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.44s" repeatCount="indefinite" path="M917,630 L917,690"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.81s" repeatCount="indefinite" path="M917,630 L917,690"/></circle>
 <rect class="lbg" x="810.0" y="658.2" width="99.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="905" y="668" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="end" dominant-baseline="middle"><tspan x="905" dy="0.0">Факт доставки</tspan></text>
 <path class="e flow" d="M1160,750 L1015,750" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="0.81s" repeatCount="indefinite" path="M1160,750 L1015,750"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="1.6s" begin="1.18s" repeatCount="indefinite" path="M1160,750 L1015,750"/></circle>
 <rect class="lbg" x="1038.5" y="704.4" width="99.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1088" y="722" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1088" dy="-7.8">Подтверждение</tspan><tspan x="1088" dy="15.6">получения</tspan></text>
 <path class="e flow" d="M990,630 L990,652 L1235,652 L1235,703" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.3s" begin="1.18s" repeatCount="indefinite" path="M990,630 L990,652 L1235,652 L1235,703"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="2.3s" begin="1.55s" repeatCount="indefinite" path="M990,630 L990,652 L1235,652 L1235,703"/></circle>
 <rect class="lbg" x="1192.5" y="658.2" width="85.0" height="19.6" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="1235" y="668" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="1235" dy="0.0">Уведомления</tspan></text>
 <path class="e flow" d="M820,740 L750,740 L750,350 L730,350" fill="none" stroke="#0b1b3f" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#dfd1-a0)"/>
-<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="3.4s" begin="1.55s" repeatCount="indefinite" path="M820,740 L750,740 L750,350 L730,350"/></circle>
+<circle class="pkt" r="4.5" fill="#ff8a3d" stroke="#fff" stroke-width="1.5"><animateMotion dur="3.4s" begin="1.92s" repeatCount="indefinite" path="M820,740 L750,740 L750,350 L730,350"/></circle>
 <rect class="lbg" x="704.0" y="502.4" width="92.0" height="35.2" rx="4" fill="#ffffff" fill-opacity="0.92"/>
 <text class="lt" x="750" y="520" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle" dominant-baseline="middle"><tspan x="750" dy="-7.8">Отметка</tspan><tspan x="750" dy="15.6">о выполнении</tspan></text>
 </svg>
