@@ -119,15 +119,13 @@
   /* ---------- Обёртка диаграммы ---------- */
   function figure(caption) {
     const fig = document.createElement("figure");
-    fig.className = "lh-fig lh-reveal";
+    fig.className = "lh-fig";
     fig.innerHTML = `<div class="lh-fig__bar">
         <span class="lh-fig__cap"></span>
-        <button type="button" class="lh-fig__btn" data-act="play" title="Повторить анимацию">▶ Анимация</button>
         <button type="button" class="lh-fig__btn" data-act="zoom" title="Открыть во весь экран">⤢ Увеличить</button>
       </div><div class="lh-fig__body"></div>`;
     fig.querySelector(".lh-fig__cap").textContent = caption;
     fig.querySelector('[data-act="zoom"]').onclick = () => lightbox(fig);
-    fig.querySelector('[data-act="play"]').onclick = () => animate(fig, true);
     fig.querySelector(".lh-fig__body").addEventListener("dblclick", () => lightbox(fig));
     return fig;
   }
@@ -147,6 +145,7 @@
   }
 
   function animate(fig, force = false) {
+    return;   // диаграммы статичны: без анимации при прокрутке
     if (REDUCED || (!force && fig.dataset.played)) return;
     fig.dataset.played = "1";
     const svg = fig.querySelector(".lh-fig__body svg");
@@ -228,7 +227,7 @@
     for (const host of root.querySelectorAll(".lh-bpmn:not(.lh-ready)")) {
       host.classList.add("lh-ready");
       const fallback = host.innerHTML;
-      host.classList.add("lh-fig", "lh-reveal");
+      host.classList.add("lh-fig");
       host.innerHTML = `<div class="lh-fig__bar"><span class="lh-fig__cap">${host.dataset.title || "BPMN-модель"}</span>
           <button type="button" class="lh-fig__btn" data-b="run">▶ Пройти процесс</button>
           <button type="button" class="lh-fig__btn" data-b="in">＋</button>
@@ -326,7 +325,7 @@
   function reveal(root) {
     const els = root.querySelectorAll(
       ".md-typeset h2, .md-typeset .md-typeset__table, .md-typeset .admonition, .md-typeset .grid.cards > ul > li, " +
-      ".md-typeset .tabbed-set, .lh-fig, .lh-pick, .md-typeset ol > li, .lh-stat");
+      ".md-typeset .lh-pick, .md-typeset ol > li, .lh-stat");
     if (REDUCED || !("IntersectionObserver" in window)) { els.forEach((e) => e.classList.add("lh-in")); return; }
     io = io || new IntersectionObserver((entries) => entries.forEach((en) => {
       if (!en.isIntersecting) return;

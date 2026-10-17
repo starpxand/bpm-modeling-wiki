@@ -188,3 +188,6 @@ html.lh-noscroll { overflow: hidden; }
 .lh-fig__cap { min-width: 10rem; }
 .md-typeset .lh-bpmn--full { display: flex; width: auto; max-width: none; }
 .lh-bpmn--full .lh-bpmn__canvas { height: auto; }
+
+/* диаграммы статичны: точки-«пакеты» на потоках не показываются */
+.lh-fig .pkt, .md-typeset svg .pkt { display: none !important; }
