@@ -1,10 +1,10 @@
 site_name: Нотации моделирования бизнес-процессов
 site_description: Мини-wiki по методам моделирования бизнес-процессов – Flow Chart, DFD, RAD, IDEF, ERD, UML, BPMN
-site_author: Попов Андрей, Красношлыков Пётр, Казанцева Ярослава
+site_author: Попов Андрей, Красношлыков Пётр, Казанцева Ярослава, Феклисов Никита
 site_url: https://starpxand.github.io/bpm-modeling-wiki/
 repo_url: https://github.com/starpxand/bpm-modeling-wiki
 repo_name: starpxand/bpm-modeling-wiki
-copyright: "&copy; 2026 Проектное задание «Моделирование бизнес-процессов» · Попов Андрей, Красношлыков Пётр, Казанцева Ярослава"
+copyright: "&copy; 2026 Проектное задание «Моделирование бизнес-процессов» · Попов Андрей, Красношлыков Пётр, Казанцева Ярослава, Феклисов Никита"
 
 theme:
   name: material
