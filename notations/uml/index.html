@@ -55,7 +55,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/extra.css?v=3">
+      <link rel="stylesheet" href="../../assets/extra.css?v=4">
     
       <link rel="stylesheet" href="../../assets/fx.css?v=4">
     
@@ -703,7 +703,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки
+        Ссылки на источники
       
     </span>
   </a>
@@ -882,7 +882,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки
+        Ссылки на источники
       
     </span>
   </a>
@@ -920,7 +920,7 @@
 <p><strong>UML (Unified Modeling Language)</strong> – графический язык для визуализации, спецификации и
 документирования программных систем. Создан в 1990-х годах объединением методов <strong>Г. Буча,
 Дж. Рамбо и А. Джекобсона</strong>, с 1997 года развивается консорциумом <strong>OMG</strong>; актуальная версия
-– <strong>UML 2.5.1</strong> (2017) <a href="../../sources/#src-15">[15]</a>, соответствует стандарту ISO/IEC 19505.</p>
+– <strong>UML 2.5.1</strong> (2017) <a href="../../sources/#src-15">[15]</a>; версия 2.4.1 утверждена как международный стандарт ISO/IEC 19505.</p>
 <p>UML 2.5 определяет <strong>14 видов диаграмм</strong>, разделённых на структурные (классов, компонентов,
 развёртывания, объектов, пакетов, композитной структуры, профилей) и поведенческие
 (деятельности, прецедентов, состояний, а также диаграммы взаимодействия – последовательности,
@@ -988,6 +988,8 @@
 <li>Выбирается тот вид диаграммы, который отвечает на вопрос: поток действий – деятельность, обмен сообщениями – последовательность, жизненный цикл объекта – состояния.</li>
 </ol>
 <h2 id="_4">Примеры<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Диаграмма деятельности – векторный рисунок по правилам нотации, диаграммы последовательности, состояний
+и классов описаны кодом в Mermaid <a href="../../sources/#src-14">[14]</a>.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Диаграмма деятельности</label><label for="__tabbed_1_2">Диаграмма последовательности</label><label for="__tabbed_1_3">Диаграмма состояний заказа</label><label for="__tabbed_1_4">Диаграмма классов</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1046,29 +1048,29 @@
 <div class="tabbed-block">
 <pre class="lh-mermaid"><code>classDiagram
     class Customer {
-        +int id
-        +str name
-        +str phone
+        +Integer id
+        +String name
+        +String phone
     }
     class Order {
-        +int id
-        +str status
-        +decimal total
-        +add_item(product, qty)
-        +set_status(status)
+        +Integer id
+        +String status
+        +Decimal total
+        +addItem(product, qty)
+        +setStatus(status)
     }
     class OrderItem {
-        +int quantity
-        +decimal price
+        +Integer quantity
+        +Decimal price
     }
     class Product {
-        +int id
-        +str title
-        +int stock
+        +Integer id
+        +String title
+        +Integer stock
     }
     class Payment {
-        +decimal amount
-        +date paid_at
+        +Decimal amount
+        +Date paid_at
     }
     Customer "1" --&gt; "*" Order : оформляет
     Order "1" *-- "1..*" OrderItem : содержит
@@ -1084,13 +1086,16 @@
 системами магазина, диаграмма классов – структуру программной системы. Бизнес-пользователю
 такие диаграммы читать сложнее, чем BPMN.</p>
 </div>
-<h2 id="_5">Ссылки<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<ol>
-<li>OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <a href="https://www.omg.org/spec/UML/2.5.1/">https://www.omg.org/spec/UML/2.5.1/</a> (дата обращения: 07.10.2026).</li>
-<li>Фаулер, М. UML. Основы. Краткое руководство по стандартному языку объектного моделирования / М. Фаулер ; пер. с англ. А. Петухова. – 3-е изд. – Санкт-Петербург : Символ-Плюс, 2004. – 192 с.</li>
-<li>UML activity diagrams // UML Diagrams : сайт. – URL: <a href="https://www.uml-diagrams.org/activity-diagrams.html">https://www.uml-diagrams.org/activity-diagrams.html</a> (дата обращения: 07.10.2026).</li>
-<li>Mermaid : diagramming and charting tool : сайт. – URL: <a href="https://mermaid.js.org">https://mermaid.js.org</a> (дата обращения: 07.10.2026).</li>
-</ol>
+<h2 id="_5">Ссылки на источники<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>Номера совпадают с общим <a href="../../sources/">списком источников</a>.</p>
+<div class="lh-refs">
+<ul>
+<li><a href="../../sources/#src-2">[2]</a> Фаулер, М. UML. Основы. Краткое руководство по стандартному языку объектного моделирования / М. Фаулер ; пер. с англ. А. Петухова. – 3-е изд. – Санкт-Петербург : Символ-Плюс, 2004. – 192 с.</li>
+<li><a href="../../sources/#src-14">[14]</a> Mermaid : diagramming and charting tool : сайт. – URL: <a href="https://mermaid.js.org">https://mermaid.js.org</a> (дата обращения: 07.10.2026).</li>
+<li><a href="../../sources/#src-15">[15]</a> OMG Unified Modeling Language (OMG UML). Version 2.5.1 / Object Management Group. – Needham, 2017. – 796 p. – URL: <a href="https://www.omg.org/spec/UML/2.5.1/">https://www.omg.org/spec/UML/2.5.1/</a> (дата обращения: 07.10.2026).</li>
+<li><a href="../../sources/#src-17">[17]</a> UML activity diagrams // UML Diagrams : сайт. – URL: <a href="https://www.uml-diagrams.org/activity-diagrams.html">https://www.uml-diagrams.org/activity-diagrams.html</a> (дата обращения: 07.10.2026).</li>
+</ul>
+</div>
 
 
 

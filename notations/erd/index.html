@@ -55,7 +55,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/extra.css?v=3">
+      <link rel="stylesheet" href="../../assets/extra.css?v=4">
     
       <link rel="stylesheet" href="../../assets/fx.css?v=4">
     
@@ -675,7 +675,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки
+        Ссылки на источники
       
     </span>
   </a>
@@ -882,7 +882,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки
+        Ссылки на источники
       
     </span>
   </a>
@@ -983,9 +983,11 @@
 <li>Для каждой связи указываются кардинальность (1:1, 1:N, M:N) и обязательность участия.</li>
 <li>Связи «многие ко многим» на логическом уровне разрешаются промежуточной сущностью.</li>
 <li>Модель нормализуется (как правило, до третьей нормальной формы) – каждый факт хранится в одном месте.</li>
-<li>Вычисляемые значения (например, итоговая стоимость) не дублируются без необходимости.</li>
+<li>Вычисляемые значения хранятся, только если это оправдано: например, сумма заказа фиксируется на момент оформления, потому что цены товаров со временем меняются.</li>
 </ol>
 <h2 id="_4">Пример: данные процесса обработки заказа (нотация «воронья лапка»)<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Сущности и связи интернет-магазина; цена в «Позиции заказа» и сумма в «Заказе» хранятся на момент
+оформления. Диаграмма описана кодом в Mermaid <a href="../../sources/#src-14">[14]</a>.</p>
 <pre class="lh-mermaid"><code>erDiagram
     CUSTOMER["Клиент"] {
         int id PK
@@ -1042,13 +1044,16 @@
 позиций, а связь «многие ко многим» между заказами и товарами разрешена промежуточной сущностью
 «Позиция заказа». Как и когда эти данные появляются, по диаграмме понять нельзя.</p>
 </div>
-<h2 id="_5">Ссылки<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Chen, P. P. The Entity-Relationship Model – Toward a Unified View of Data / P. P. Chen // ACM Transactions on Database Systems. – 1976. – Vol. 1, № 1. – P. 9-36.</li>
-<li>Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf">https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf</a> (дата обращения: 07.10.2026).</li>
-<li>What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <a href="https://www.lucidchart.com/pages/er-diagrams">https://www.lucidchart.com/pages/er-diagrams</a> (дата обращения: 07.10.2026).</li>
-<li>Mermaid : diagramming and charting tool : сайт. – URL: <a href="https://mermaid.js.org">https://mermaid.js.org</a> (дата обращения: 07.10.2026).</li>
-</ol>
+<h2 id="_5">Ссылки на источники<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>Номера совпадают с общим <a href="../../sources/">списком источников</a>.</p>
+<div class="lh-refs">
+<ul>
+<li><a href="../../sources/#src-7">[7]</a> Chen, P. P. The Entity-Relationship Model – Toward a Unified View of Data / P. P. Chen // ACM Transactions on Database Systems. – 1976. – Vol. 1, № 1. – P. 9–36.</li>
+<li><a href="../../sources/#src-12">[12]</a> Integration Definition for Information Modeling (IDEF1X) : Federal Information Processing Standards Publication 184 / National Institute of Standards and Technology. – Gaithersburg, 1993. – URL: <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf">https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub184.pdf</a> (дата обращения: 07.10.2026).</li>
+<li><a href="../../sources/#src-14">[14]</a> Mermaid : diagramming and charting tool : сайт. – URL: <a href="https://mermaid.js.org">https://mermaid.js.org</a> (дата обращения: 07.10.2026).</li>
+<li><a href="../../sources/#src-20">[20]</a> What Is an Entity Relationship Diagram? // Lucid : сайт. – URL: <a href="https://www.lucidchart.com/pages/er-diagrams">https://www.lucidchart.com/pages/er-diagrams</a> (дата обращения: 07.10.2026).</li>
+</ul>
+</div>
 
 
 

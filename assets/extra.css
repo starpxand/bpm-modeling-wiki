@@ -182,3 +182,8 @@ html {
   .lh-hero__grid { grid-template-columns: 1fr; padding: 2.2rem 0.8rem; }
   .lh-hero h1 { font-size: 1.6rem; }
 }
+
+/* Ссылки на источники на страницах нотаций: номер общего списка вместо маркера */
+.md-typeset .lh-refs ul { list-style: none; margin-left: 0; padding-left: 0; }
+.md-typeset .lh-refs ul li { margin-left: 0; padding-left: 2.6em; text-indent: -2.6em; }
+.md-typeset .lh-refs ul li > a:first-child { display: inline-block; min-width: 2.4em; text-indent: 0; font-weight: 600; }
